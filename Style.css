@@ -506,3 +506,310 @@
     color: ;
     text-decoration: none;
 }
+/* Mobile devices (320px to 480px) */
+@media screen and (max-width: 480px) {
+    .nav {
+        padding-left: 20px;
+        width: 100%;
+    }
+    
+    .nav2 {
+        gap: 20px;
+    }
+    
+    .input {
+        width: 90vw;
+    }
+    
+    .box {
+        flex-direction: column;
+    }
+    
+    .collections {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .content1 {
+        width: 90%;
+    }
+    
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+    
+    .coloum1, .coloum2 {
+        width: 90%;
+    }
+}
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .nav {
+        padding-left: 40px;
+    }
+    
+    .input {
+        width: 75vw;
+    }
+    
+    .box {
+        flex-wrap: wrap;
+    }
+    
+    .collections {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .content1 {
+        width: 85%;
+    }
+    
+    .row1, .row2, .row3 {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 15px;
+    }
+}
+
+/* Laptops and small screens (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .input {
+        width: 65vw;
+    }
+    
+    .content1 {
+        width: 90%;
+    }
+    
+    .collections {
+        gap: 15px;
+    }
+}
+
+/* Additional adjustments for section5 */
+@media screen and (max-width: 768px) {
+    .section5 .mob1 {
+        flex-direction: column;
+    }
+    
+    .left-side img {
+        height: auto;
+        width: 90%;
+    }
+    
+    .rightside h1 {
+        font-size: 32px;
+    }
+    
+    .textarea {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .download-btn {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+/* Footer responsiveness */
+@media screen and (max-width: 768px) {
+    .footerlist {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .footerbutton {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .section6 {
+        width: 95%;
+    }
+    
+    .item1 {
+        width: 90%;
+    }
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.footercontent {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo img {
+    height: 28px;
+}
+
+.footerbutton {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn1 img {
+    height: 20px;
+    width: 20px;
+}
+
+.btn1 p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.list1 h4 {
+    color: #1c1c1c;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.list1 a {
+    text-decoration: none;
+    color: #696969;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.list1 a:hover {
+    color: #1c1c1c;
+}
+
+.appslogo {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.appslogo img {
+    height: 24px;
+    width: 24px;
+}
+
+.download-btn.footerbtn {
+    margin-top: 20px;
+}
+
+.download-btn.footerbtn button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.download-btn.footerbtn button:hover {
+    background-color: #f2f2f2;
+}
+
+.download-btn.footerbtn img {
+    height: 30px;
+    width: 22px;
+}
+
+.download-btn.footerbtn a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.google, .Appstore {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .footertop {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footerbutton {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerlist {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .list1 {
+        align-items: center;
+    }
+
+    .appslogo {
+        justify-content: center;
+    }
+
+    .download-btn.footerbtn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footercontent {
+        width: 95%;
+    }
+
+    .btn1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .download-btn.footerbtn button {
+        width: 100%;
+        justify-content: center;
+    }
+}
