@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="shortcut icon" href="Icon (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section1">
+        <div class="nav">
+            <div class="nav1">
+                <a href="">Get the App</a>
+            </div>
+            <div class="nav2">
+                <a href="">Ivestors Relations</a>
+                <a href="">Add restaurant</a>
+                <a href="">Log in</a>
+                <a href="">Sign up</a>
+            </div>
+        </div>
+        <div class="img1">
+            <img src="Image2.png" alt="">
+
+        </div>
+        <div class="text1">
+            <h1>Discover the best food and drinks in Indore</h1>
+        </div>
+        <div class="top">
+            <div class="input">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA2tJREFUWEfFlk+IHEUUxr/XMwvTWbpnRg8GchERVAyCIgmJEARBxKBgNgbUbFUPe4iJYMBANkGUCBL/5WBAxVGSqa51RQJGUCEEQdB4EEWCIHhRIyjLmhzc7faw0Zl60msCSW33dPWskDp2fe/7ftWvqroJ13jQNc7HyADc6zVS4EZ4XntQr8+1xsZ+px07BlUXVAkg1Xq9Yd5NwH0AbrHC/gHwDQGn/67Vjl6/c2fiAuMEwCdO+OnS0ttgFi6mABbA/EwYRb0yfSnAn71eq+Z5pwFsKDPLmX82lPLwsLqhAPNaj/vMZwi4c4Tw/0qIpkMhXi2qHwqQxPGHALaNHH65kOjhUIhP8nwKARKl7gHRVwXh2W7XRPQeBgPD9XoLxhwAsLFA/2Nw7tx6OnTI2PPFAFqfAvMDOYZfsudNNScnf7LnUqUmmOhdAO2cum2hlB85ASzMzra9fv8CgJpVMN9fWrr1ul27FovaksTxIwBO2vPM/EEzih5zAlhU6onl12sNIpoIhFhhbusSrT8F81breRoI0SQivvJ5bguSOM76+ZJlcDHw/XGX2y6JYwlA5SzghkCI8+UAWh8G88GrDJj/CKNorcuJSJXawkRf2FrDfHcrir4rBUiV2s1Eb1kG/cD3G05vQOuHwPyxDVAD7hqX8mwpwIJS93tE2e131SCiewMhVqzM1i0q9QYRPbUCoN9fNz41NVcOcPz4TV6t9nPO6z4VSvngsDb81eutNZ73CwDf0s2FUq5zOgWZKInjHwDcvuI4Eb3YFOK5PIjsu+F53ucFV3c3lPJJZ4A0jvcw8GZeEAHve8CRy/2c63bXBL6/lZmzD8/NeTVszIZmp/OtM8CFY8eCRr0+z8Aal50/VMN8JoyiLQWLKS5N4ngawMurBWBjNjU7na8rA3C3O5Y2Gt8DuG0VECdDKSeK6kt/SJKZmc0wJjt69aoQDPxmjLmj3eksjAyQFS5q/Tgxz1YEuFgDNtkXj/MmtIWp1s8z8wuuEEwkmkLMlOlLW3ClQaLUERDtKzMFcDCU0mnzVgLIgtM4fp2BvUMg9odSvuYAuSypDLAMofVRZn7aChkQ854git5xDR8ZICtMlHoFRPsvhSXG87a3Jic/qxK+KoBL7djOwPTAmEfbnc6vVcNXDTBK4MjH8P8Iy/P4F7uDKjAQxIT5AAAAAElFTkSuQmCC" />
+                <input type="text" class="Location" placeholder="Indore">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAtdJREFUWEftllmozkEYxn/HLiQXKJFQEhdCWcsSkRISnWS54dShLKWEFCmhpCRbSZQLKdlK1g6FlKQUSiRLdhdItizz6B2N//l/38z3db5zbszVf3mfZ56Zeed53yqaeFQ18fyUIqAV0AvoCDwGXjWE+JiAFsASYCYwDGgeTPoWOAFsA+6WK6aYgOFuxQeBvhHyn8BmF7Me+F6qkEICltnKmhmhJrkD3AZeuJUPAgYDnYIJbwETAe1M8sgTMBk4HTCcAWqAZzmsC01oB/t3HpgE/EpVkBUgogdAFyNYC2yMkCkx64CeFrcY2F2ugE3AKgPvBxYkEg0EdARa0DugG/AtBZvdgSdADwNrRS9TSCxGCTvfnqe5HDmZgg0F9AYeGuiYS7gZKQRBzHjggr1vB5an4EMBI4GrBloHbEghCGJau+P7Yu+ngKkp+FDAGOCSgdYAyodSx2fnCW2Ai8CEFHAooB9wz0B7nNUuSiEIYjoDr+19B7A0BR8KaAu8d9eupVnrgBSCIGYWcMTe5Rv7UvDZW6Czm2LAccGRxLjEc9McUrEjgOsxkP5nBYwGLhtQljvErDfGtQVYaUESMhSQfUdHnhUfAuYYUlVuLPCmCNMKYKv9/wro6Px1LktAe9tOXwWVF3udPe+yPkCkunLVlqiqmn6cc0VLufAhOrMFFKqG3d05nnVJ1T+VyFXCa4C85BOgW6Q+4XkMX6wfUOez2l0tFRdf7fL47jvLrgVuALJyX6J/ACrrO4uJiHVEfruVB0rQPq7SdbXklWccd6vWtvvyKwdVY+KHvutWheX9Hz0pAmK7GP7X6p8C7YKPckc1KlfyiBpagOaYCxzI9I8fTUQ9b6iEAIlQMmrblUd+SIQqrK+Yf75XSoC41ZqpnQuHzGl2YNkVFaCJ5QmHXWn3ze0jYFTorpXcAb/y6cBR8wQdjZL072gMAZpsnhlVPYtuLAEFr/J/Ab8BSsd2IQDXIocAAAAASUVORK5CYII=" />
+                <input type="text" class="search" placeholder="Search for restaurant, cuisine, or a dish">
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="sector1">
+            <div class="box">
+                <div class="box1">
+                    <a href=""><span class="cont1">
+                            <h3>Order Online</h3>
+                            <p>Stay Home and order to your doorstep</p>
+                        </span>
+                        <img src="zomato-section2-image1.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="box1">
+                    <a href=""><span class="cont1">
+                            <h3>Dining</h3>
+                            <p>View the Cities Favourite dining venues</p>
+                        </span>
+                        <img src="zomato-section2-image2.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="box1">
+                    <a href="">
+                        <span class="cont1">
+                            <h3>Live Events</h3>
+                            <p>Discover India's best events and concerts</p>
+                        </span>
+                        <img src="zomato-section2-image3.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="top2">
+            <h1>Collections</h1>
+            <div class="collect">
+                <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Indore, based on trends</p>
+                <div class="collect2">
+                    <a href="">All Collections in Indore</a>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAdZJREFUWEfN1z1PwkAYB/DnuZZom/gBnFwdnR34GiQkSljcCBoDicHobfRF+AAkGhJ3FxycNXEzDgxMmrCayGBAI9J7DEWU8NZSruCt7eX/y+Xu3yvCkgcuOR+mAohzHVqtdbTtp7CgEwGUza45jFWBaAMALhRNSyPnTdmQiYB2JrPFGHv8DUSsE1E8Ypr3MhH+Ab1UQUQFVdePkfO2DMisADeTAGoCILZimtV5EYEAP6FtRDxhq6s2ci6CQuYB9DPvlU4njoVCPQhCBqCb2wSifdWyzmdFyAL0coluFCESeHb24hciF9BLfQWApGqaFT+IMAD93LKiaSmv8goTAOCjvMIF9MsLoKhqWm5ceS0C4DIQ4IFpWhQ5fx/cGwsDuIdEiGjEtu+WAiCAYsQ0D4dPxiJW4IUQExHDuBl3LMMGVBTGkpjPd7th7AgL8AaIadUwyl5lFAbgVul0dv1+nGQCPhExxwyjiO6Vwd+QAkCAKiOKoWXV/MX+vTUvwCFES200TrFU+po1/Kegxk8buZSOvvZMADvzXlKDrQBRSdH1g+FaXcQKTC0VqQA6Otp0hBjcVFcKY3vTSkUugHPmfHxcA8A2EKVUy7oMEuA153//nHrpZTz/Bp/X2SGkm9yRAAAAAElFTkSuQmCC" />
+                </div>
+            </div>
+        </div>
+        <div class="collections">
+            <div class="collection1">
+                <div class="text2">
+                    <p>12 Best luxury Dining Plac...</p>
+                    <div class="places">
+                        <p>12 Places</p>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAX1JREFUWEfNlzEvBUEUhb+jlPgBKq1SrfA3JBJEoxNESeiJ9wMkRKLXUKhJdKJQqEi0Eo2IBGE5yZvk5Xl23+7O7HPa2cn59s6ds3fFgKUB+5MLkGXZMDAq6S4V6J8AWZaNADfAGHAALEt6iQ2SBzABXHcYPgAzki5jQpQBsO8XsAtsSHqPAVIWIHjeAtOSfES1VBXApq7AJrAjyZWppDoAwdA94d5wj5RWDACb+nasSNovSxALIPieAfOSHvsFiQ1g3ydgQdJJPxApAILv4Q/MUlF4pQQwSGF4pQYI4dUC1nuFVxMA4UiugClJr5290SSAfQ1wMSiAlqS17pvRRAWcCc4GZ8QvpQZwFjgTnA09lQrguT3AOAtylQLgHJjr9+MUE+DNdx1ws2VFbx7WYwF4MPGA4kGllOoCfALbwJakj1LO7YfrANwDs3WH1KoAe8Bqd6w2UYHcUIkNMP7TWJ1NdQws5oVKbIAh4BSYbA8WR1UMivb875/TIvoY698slqghi+XchAAAAABJRU5ErkJggg==" />
+                    </div>
+                </div>
+                <img src="section3-image1.jpeg" alt="">
+            </div>
+            <div class="collection1">
+                <div class="text2">
+                    <p>11 Romantic Dining Places</p>
+                    <div class="places">
+                        <p>12 Places</p>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAX1JREFUWEfNlzEvBUEUhb+jlPgBKq1SrfA3JBJEoxNESeiJ9wMkRKLXUKhJdKJQqEi0Eo2IBGE5yZvk5Xl23+7O7HPa2cn59s6ds3fFgKUB+5MLkGXZMDAq6S4V6J8AWZaNADfAGHAALEt6iQ2SBzABXHcYPgAzki5jQpQBsO8XsAtsSHqPAVIWIHjeAtOSfES1VBXApq7AJrAjyZWppDoAwdA94d5wj5RWDACb+nasSNovSxALIPieAfOSHvsFiQ1g3ydgQdJJPxApAILv4Q/MUlF4pQQwSGF4pQYI4dUC1nuFVxMA4UiugClJr5290SSAfQ1wMSiAlqS17pvRRAWcCc4GZ8QvpQZwFjgTnA09lQrguT3AOAtylQLgHJjr9+MUE+DNdx1ws2VFbx7WYwF4MPGA4kGllOoCfALbwJakj1LO7YfrANwDs3WH1KoAe8Bqd6w2UYHcUIkNMP7TWJ1NdQws5oVKbIAh4BSYbA8WR1UMivb875/TIvoY698slqghi+XchAAAAABJRU5ErkJggg==" />
+                    </div>
+                </div>
+                <img src="section3-image2.jpeg" alt="">
+            </div>
+            <div class="collection1">
+                <div class="text2">
+                    <p>17 Great Cafes</p>
+                    <div class="places">
+                        <p>12 Places</p>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAX1JREFUWEfNlzEvBUEUhb+jlPgBKq1SrfA3JBJEoxNESeiJ9wMkRKLXUKhJdKJQqEi0Eo2IBGE5yZvk5Xl23+7O7HPa2cn59s6ds3fFgKUB+5MLkGXZMDAq6S4V6J8AWZaNADfAGHAALEt6iQ2SBzABXHcYPgAzki5jQpQBsO8XsAtsSHqPAVIWIHjeAtOSfES1VBXApq7AJrAjyZWppDoAwdA94d5wj5RWDACb+nasSNovSxALIPieAfOSHvsFiQ1g3ydgQdJJPxApAILv4Q/MUlF4pQQwSGF4pQYI4dUC1nuFVxMA4UiugClJr5290SSAfQ1wMSiAlqS17pvRRAWcCc4GZ8QvpQZwFjgTnA09lQrguT3AOAtylQLgHJjr9+MUE+DNdx1ws2VFbx7WYwF4MPGA4kGllOoCfALbwJakj1LO7YfrANwDs3WH1KoAe8Bqd6w2UYHcUIkNMP7TWJ1NdQws5oVKbIAh4BSYbA8WR1UMivb875/TIvoY698slqghi+XchAAAAABJRU5ErkJggg==" />
+                    </div>
+                </div>
+                <img src="section3-image3.jpeg" alt="">
+            </div>
+            <div class="collection1">
+                <div class="text2">
+                    <p>12 Local Favourite Places</p>
+                    <div class="places">
+                        <p>12 Places</p>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAX1JREFUWEfNlzEvBUEUhb+jlPgBKq1SrfA3JBJEoxNESeiJ9wMkRKLXUKhJdKJQqEi0Eo2IBGE5yZvk5Xl23+7O7HPa2cn59s6ds3fFgKUB+5MLkGXZMDAq6S4V6J8AWZaNADfAGHAALEt6iQ2SBzABXHcYPgAzki5jQpQBsO8XsAtsSHqPAVIWIHjeAtOSfES1VBXApq7AJrAjyZWppDoAwdA94d5wj5RWDACb+nasSNovSxALIPieAfOSHvsFiQ1g3ydgQdJJPxApAILv4Q/MUlF4pQQwSGF4pQYI4dUC1nuFVxMA4UiugClJr5290SSAfQ1wMSiAlqS17pvRRAWcCc4GZ8QvpQZwFjgTnA09lQrguT3AOAtylQLgHJjr9+MUE+DNdx1ws2VFbx7WYwF4MPGA4kGllOoCfALbwJakj1LO7YfrANwDs3WH1KoAe8Bqd6w2UYHcUIkNMP7TWJ1NdQws5oVKbIAh4BSYbA8WR1UMivb875/TIvoY698slqghi+XchAAAAABJRU5ErkJggg==" />
+                    </div>
+                </div>
+                <img src="section3-image4.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="content1">
+            <div class="top3">
+                <p>Popular Locations in and around <b>Indore</b></p>
+            </div>
+            <div class="row1">
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>Vijay Nagar</h1>
+                            <p>1317 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>New Palasia</h1>
+                            <p>164 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>Old Palasia</h1>
+                            <p>243 Places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+            </div>
+            <div class="row2">
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>Bhawar Kuan</h1>
+                            <p>468 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>Rau</h1>
+                            <p>173 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>By Pass Road (North)</h1>
+                            <p>194 Places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+            </div>
+            <div class="row3">
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>South Tukoganj</h1>
+                            <p>468 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum1">
+                        <div class="place1">
+                            <h1>Sapna Sangeeta</h1>
+                            <p>173 places</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATdJREFUWEft1E8rRUEcxvHP9W8ra3kJ7K1ICSlRdiIr8o4UG6xQyJ+tJBsb5R3IOyBJSpzR3Dq7e8/Mqbs5Zzvn1/c7zzwzLT3+Wj3mawSaBJoEchKYxl3uNU4VWMcB9rGVI5EiMIoXDETwLnZSJVIEAmsFp+iP4L3UJFIF2hInpSSCxDZ+q6SRIxA4i7goSRwWx7NZRSJXoC1xjsG480oSdQgE7ixuUiTqEhiKb8JkTOEd43jt1Ic6BMJ1vMJ8hH1gCk+d4GE9VyBcw7MCthRhn5jBYzfwXIE+HGO1BJ/DQ7fwHIEAD21fi7CvWMRK8FSBcGxHJfh3EfkCbqvsvP1vSgfGiqf4GSP4wTKuU+CpCYS5iaJs99jAZSo8RyDMDuMtB54rkMv+n0/pQC3gnBI2Ak0CtSbwB+eTKyEuc6RkAAAAAElFTkSuQmCC" />
+                    </div>
+                </a>
+                <a href="">
+                    <div class="coloum2">
+                        <div class="place2">
+                            <p>see more</p>
+                        </div>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="mob1">
+            <div class="left-side">
+                <img src="zomato-mobile.jpeg" alt="">
+            </div>
+            <div class="rightside">
+                <h1>Get the Zomato app</h1>
+                <p>We Will send you a link, open it on your phone to download <br> the app</p>
+                <div class="buttons">
+                    <input type="radio" name="contact" id="" value="Email">
+                    <label for="">Email</label>
+                    <input type="radio" name="contact" id="" value="phone">
+                    <label for="">Phone</label>
+                </div>
+                <div class="textarea">
+                    <input type="email" placeholder="Email">
+                    <button>Share App Link</button>
+                </div>
+                <div class="down">
+                    <p>Download app from</p>
+                </div>
+                <div class="download-btn">
+                    <button><a href=""><img src="Google_Play.png" alt="" height="30px" width="22px">Get it on <br><span
+                                class="google">Google Play</span>
+                        </a></button>
+                    <button><a href=""><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAi9JREFUWEftl02ITWEYx39/KcXCR2EjGmWDUhZkY2rYDFYWbKyUkqaUzQg7+ZpSUpOyRdlITEpZmSmJabKQHYmyQ9j47O88da5Op3vuOeee052NZ3d7n/M+v/f5eN//FfNsmuf4tA5gO/ZcL+l1lcO1BmB7CLgIjALPJe0aGIDtFcAcsC4NelXS8UECPAZ2ZgIOS5oeCIDt3cCjTLAJSeNVgodP4x6wfQXopPuSpJNVg7cFcApYBkwljTeT9sMm4K2k92UwpRmwvRQ4DOwDNgMLgKfJ71nghqQ3ttcAB4CDwLZM0HfANeCypF/dYHoC2N4C3Mt0d9mBitZngBFJv/MOhQC2lySnegWs7Tdq7rtRSQ/rAFwAajVUAeifKI2kO5VLYHsR8AGIC6apjUmaLNqkawls7wEeNI0MfANWJaP5vS7AMaCQugbYtKThXv5FGTgHxHw3tbuS9vcDcAY42zR6Mnp9Z+AIcL0FgB9JKVdKil7oakUl2AE8aQEgtjif3IKn6wIsBL4Ai1uCGJc0UfkeCEfbU+n93xIDt4GjkuJg/6zXVdzWXdAJ9il5mFbn34NeALH2EtjYUgq6CpWy17CtZoy0DyU68XP+MFX0QCjdyhKrIFuHJN2q1YQdZ9shQO4nUntvn6WYlDRWawzzzqk2CIiRzFqIixfAM2A5sD3+kOS+Db14QpIbAaRjGeWKydgKfARuSvqa3dj2hlSa/QylLCkAe1ppD5Rt0HT9P8BfCnKmIRMx40UAAAAASUVORK5CYII=" />Download
+                            on the <br> <span class="Appstore"> Appstore</span></a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section6">
+        <div class="content2">
+            <div class="tophead">
+                <h2>Explore options near me</h2>
+            </div>
+            <div class="list">
+                <div class="item1">
+                    <p>Popular Cuisines Near Me</p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                </div>
+                <div class="item1">
+                    <p>Popular Restaurant Types Near Me</p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                </div>
+                <div class="item1">
+                    <p>Top Restaurant Chains</p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                </div>
+                <div class="item1">
+                    <p>Cities We Deliver To</p>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footercontent">
+            <div class="footertop">
+                <div class="logo">
+                    <img src="Footerlogo.png" alt="">
+                </div>
+                <div class="footerbutton">
+                    <div class="btn1">
+                        <img src="india.png" alt="">
+                        <p>India</p>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" />
+                    </div>
+                    <div class="btn1">
+                        <img src="Language.png" alt="">
+                        <p>English</p>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQBJREFUWEftlDEOAUEUhr+9gTiExCGIuAANUekU3EQtGpVKS6PSuoCCiivgAIh9Mpswsbszs8U2b6pJ5r3/ffO/NxNR8opKro8CqAPqgDqgDvg4UAHuHl93FbjmxbsC9IAl0AV2eaLADOgAbeCcFe8CUAdORuRhILYpoqI3B8bm/ALUgFcahAuA5I6ARQ6EaIlLQxN3AxrAsagDSb4N0QfW5jCouOS6OvAP4hnfTmZjE9u8AgY+N08EfQEkb2L6LHvp7R5oGkF5JS3g4DCon5AQAHsmklpOPbfBQgFsiKDiRRz4nompy7QXfYZZLfX9IX+0irTAdc4y4xRAHVAH1IE3H4QsIeZE+qMAAAAASUVORK5CYII=" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footerlist">
+                <div class="list1">
+                    <h4>ABOUT ZOMATO</h4>
+                    <a href="">Who we Are</a>
+                    <a href="">Blog</a>
+                    <a href="">Work With Us</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Report Fraud</a>
+                    <a href="">Press Kit</a>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="list1">
+                    <h4>ZOMAVERSE</h4>
+                    <a href="">Zomato</a>
+                    <a href="">Blinkit</a>
+                    <a href="">Feeding India</a>
+                    <a href="">Hyperpure</a>
+                    <a href="">Zomato Live</a>
+                    <a href="">Zomaland</a>
+                    <a href="">Weather Union</a>
+                </div>
+                <div class="list1">
+                    <h4>FOR RESTAURANTS</h4>
+                    <a href="">Partner With Us</a>
+                    <a href="">Apps For You</a>
+                </div>
+                <div class="list1">
+                    <h4>LEARN MORE</h4>
+                    <a href="">Privacy</a>
+                    <a href="">Security</a>
+                    <a href="">Terms</a>
+                </div>
+                <div class="list1">
+                    <h4>SOCIAL LINKS</h4>
+                    <div class="appslogo">
+                        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAc1JREFUWEftljtoVEEUhr+vVFvBQsFKBEG7qI2FWBg0hTY2YhGw8AEWCj5aBV+NjW+wsxOCCgrpBBttLAQbTaGCNiIEwVKOOcsu3IzjGtfcbJAduMW9c2b+7/wzc+7IkJtD1mf5AkTEBmBW/dKmS784EBHbgbvA5q7wHfVIWxA1gDfApkLwjHq1DYh5ABGRWb+uCD1Tdy4FwHrgfUXoobq/dYAUiIj7wMFCbEJ9siQAXYjzwG7gK3BbfdyGeM65fOvAoBlHRCa1DlgLfFQ/95urdgxfANuKQYfU3Bu5R44CN4v+XLIL3WcSWNPo/w48B06o70qYxQK4CGwBJvpk+y1j1A/NmMUCyCxXLWDZHqgH2gBYgHYn5AewWp3tDRjEgfwv3KoopsWngBlgBXAN2FiJ26c+agNgXJ3uTRwReQreAisLiJNqwnXaIA7UTsEnNY/evBYRWT33FJ8vq+f+BaC2BE/VvRWAXKryV56VNZMY2IFjwI1C7HcAV4DTRew99XA/gJfA1mJQsxAdn9vJ14v+aXW84sAl4OwIYOTAyIG/dSDPaFnVptTObXmuuo0BZdGZ6d0XmmIRsQvYUQC8al7x/r8rWVmM/vQ+dAd+ApqLGjCyGKkHAAAAAElFTkSuQmCC"/></a>
+                        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA9hJREFUWEftl1nMnWMUhZ8VQ1yIuUhqShBTQlpKhAYhQQw1NoIghoghFI2pdxJDIw2NlAZtEdwIokgNMY8xC2K+MI8huDIu3/rzfifff/7vfOc/XPSm++Yk57x7v+tde++19xEr2bSS72cVgKEM2N4P2BXYCZgG7DIkbX8CLwBvA+8DT0n6aJDPQAC2pwC3Awf/zzoJoCuAqyX93R+rFYDtzYA3gY2AP4D7gJeBd4B/JgFoHWAPYP/yGZdH8xhJbvpPAGA73z0BhPpceLSkjydxaesR2+cAC4HVgAskXT8MwFHAvcD3wLaSfh31ctt7AucCXwOLgWOTAuB3YIqk3+qYbQzcApxeHVwkKUFGNttXVqm7vDiGgZuBn4G1gcMlPdgF4Dlgb+AUSSnCCWZ7RsXQ2UA+tygV/yJwlaRfbF8MzC+OY3FsP1uldiYwV9KCLgAfANuVgnmk/3bbFxU612jB9gUwG/gUSCF/K+mbnLN9D3AMsEDS3C4ACRLnvSTlVT2zfWECAH8BN1Z0vpFLgK1DLXBgyfM0SdGApu+dwAnxk5S0jFlbDaT4ogG7SXq9Pmh7h9Ka8Zku6b0Wdi5LGgqwGZJ6LWs76TxpMgB+BDaM6kl6qwFgUcn7dVVnhIm22kirfQJsFQ2Q9GTDvwawWNJZXQz8UASon4GwMb264ERJd7UBKLmOaB0JzJMUNsbM9m3AycASSemygSlITjcBdpf0aiPAl8BU4FBJD3cAaG1j20uAU6uuWSrptC4A31V52jgSKumVBoB0RIrsPEk3dAB4uhpA+wBnSkr/1wwsS2sDyyQFyMgMXANcUjHwWmFnnKYXmtO+7wKrRyMk5WwNoK6BWyWd0QUgfbtpSwq2LIKzLnB3pWznV0qZgq0viPwuBbYHHquG10HNwWM7dXN8pHlYEX5eFcrmUUNJmes9s31I1R0PlMGSMRvVzMDK4Nq5HPystHAPXGGnFqKFkuZ0MRAKs3wcJumh/lzbznJyfwHZ/3Nefpyk6P44s51YecB8SZd2AXgcOCDTTFJ6f4LZThqOKG0ZFYwiviRpRdv5wkCEa8f+Im5TwmszMCpan5G076CAo3xve5tKhuudYqak57sYyCaT7Sc2S9LyUS4bwFjNalp8anM1G7SS1S2TxWGOpFT3yGZ7PeCO1FNxni0pxdizQQDWBz4sQymHgzxjumnZblLxP1XikhZN6zbjrVW26DWL03JJs/pf0bUVR3bnAZHNOsjILJRxneXkJkkBPc4m879gg7Jk5IVNC6i8PJtzdoivMnP6zqQ7VkiKZrTaUAD/5cmj+KwC8C9ww3kwt2CcIAAAAABJRU5ErkJggg=="/></a>
+                        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAcNJREFUWEftlL9LlVEYxz9fiKgIcnZoDMqxSQWnXDIoihZBnRSHwJb2/A+EhqCWiBqaqqEianDVURpDdFBxCAI3Fb/dA8+Nl8vVc977Di7v2e49532+n+f7/BDnfHTO+rQArQOtA8UO2B6S9LdkbG1fAC5LOsi9LwKw/Rh4AzyQ9OOsoCH+CRgGJiX9Oet9FsD2CPArghwD9yR97xc0xD8AD+P+m6S7jQDSx7bnOxm9ikBHwFSvE5XMp+LdNjAuaacxQA5iUPEUN1uCKn0/J4BV4GNyJd5uAhO5zLtxawGEE4vAy0pPrCWr4/fvEN/Ldf/AAAExG1NRTSBlPiZpv1S8dgm6gW1f63T6BnC9IrYs6Xkd8YEAbF+Nut/uI7Yg6XUdiFo9YPsK8BMYDZFd4D3wrCI6J+ltKUQxgO1LHeG0gCYieJrvNOfbtp8AL+L/E+CRpLQNs6cIwPZF4Atwp1e80hdViLQx70v6miPIAsSS+Qx0V+r/zHuD9zhxGBszlezUUwJwoyO+DqTOTzVPtm+dFtH2ErAS9+8kzTQCiLm/BaTunk41z9lq+ylwE1iU5MYAOcEm99kSNAle8m0L0DrQOvAPHSmWIU4hiIsAAAAASUVORK5CYII="/></a>
+                        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAhlJREFUWEftlk+ITlEYxn8PEkUIiYV/sbAQZTHJZiZhIcnKRhZYKTbszELJipSlpmGh2VhYjJKkKTsLTY1S8i+xUWQxJKQe9/36vvHd4xvfuXczm3tW9/vu8z73d97zvuccMcdDc/x9GoAmA7NmwLYkuVOkttcBG4GFGYX7CXgt6Wc/7T8AtlcAV4CjwJJ+BhnvfwPPgUngjqQH3TElANsr2+I1GcZ1JWOSjnWCU4DrwNm6zhXiBiU9Dn0K8AbYXMGorvSapHMlANsLgCiaeXVdK8Tdl3QwBYiZRwZyRqQvOmQwR9xDMyVpZwowADzJNLwp6aTtw+2O2ZoZ15F9kLQ+BdgHPMw0agGEtr10p4vni0C0cM74LGl1CnAEuJsTDdySdKJba3tZG+IMML+Pz7Sk0P/tAtuHgPFMgFFJp1Kt7VXAGLC/j883SUtTgANAaZf6j0kJwHZ0TizDJWB5xiS+SIpNr5SBIWAiIzgkMwC2dwM3gO2ZsSF7L2lDCrALeJppMgpcKM6Kq8WhM7OtZsaG7JmkHSnAJuBtpsmLYtZrgVYh1RgTkvamAIuB7zXM6oTclnS8BBA/bL8CttRxrBgzLOlyL4Co4uGKZlXlv4BtRQZay52ehouAR8Ceqq6Z+mngvKSRjr7XjSj+i46I21Bsl/H8o8cH4n2cAVHN72YB+BhXsyKrcSt6WXjdK47hr93a5lbcZKDJwB8mspchVFmFTwAAAABJRU5ErkJggg=="/></a>
+                        <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAARVJREFUWEftlTtKBEEURc9BUxdh4AJcgp/JxFRMNHILBiIYjUswMtDMbEAw8QOuwMTUQHN1ASI8aWmkKRh77PlUYBV0Up/7Tt163JbMw8z1KQBjORARc8BW/W0CAbwDr8Clut/2xJ0BImIeGAAbQ4pcqcPWfo6MA9AHDn654fQA6ttXVi/kAlgGHpLiL8BJPf8JvKmPU+mBiFgF7hLxbfWirWC63qkHImIduEnEVtT7WQH0gOv/A1AHTtVYfxl99bDtwEg90BFgTz3NCdBTb3MCLKlPkwKonuqoIbYI7CTi58BzY+5Y/ZgIQCoSEWtAau9Mc6AAFAeKA8WB7A5UUbybJOSZ2ozithT+Xh/pdzySUsdNBeAL/gaGIWmJkcsAAAAASUVORK5CYII="/></a>
+                    </div>
+                    <div class="download-btn footerbtn">
+                        <button><a href=""><img src="Google_Play.png" alt="" height="30px" width="22px">Get it on <br><span
+                                    class="google">Google Play</span>
+                            </a></button>
+                        <button><a href=""><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAi9JREFUWEftl02ITWEYx39/KcXCR2EjGmWDUhZkY2rYDFYWbKyUkqaUzQg7+ZpSUpOyRdlITEpZmSmJabKQHYmyQ9j47O88da5Op3vuOeee052NZ3d7n/M+v/f5eN//FfNsmuf4tA5gO/ZcL+l1lcO1BmB7CLgIjALPJe0aGIDtFcAcsC4NelXS8UECPAZ2ZgIOS5oeCIDt3cCjTLAJSeNVgodP4x6wfQXopPuSpJNVg7cFcApYBkwljTeT9sMm4K2k92UwpRmwvRQ4DOwDNgMLgKfJ71nghqQ3ttcAB4CDwLZM0HfANeCypF/dYHoC2N4C3Mt0d9mBitZngBFJv/MOhQC2lySnegWs7Tdq7rtRSQ/rAFwAajVUAeifKI2kO5VLYHsR8AGIC6apjUmaLNqkawls7wEeNI0MfANWJaP5vS7AMaCQugbYtKThXv5FGTgHxHw3tbuS9vcDcAY42zR6Mnp9Z+AIcL0FgB9JKVdKil7oakUl2AE8aQEgtjif3IKn6wIsBL4Ai1uCGJc0UfkeCEfbU+n93xIDt4GjkuJg/6zXVdzWXdAJ9il5mFbn34NeALH2EtjYUgq6CpWy17CtZoy0DyU68XP+MFX0QCjdyhKrIFuHJN2q1YQdZ9shQO4nUntvn6WYlDRWawzzzqk2CIiRzFqIixfAM2A5sD3+kOS+Db14QpIbAaRjGeWKydgKfARuSvqa3dj2hlSa/QylLCkAe1ppD5Rt0HT9P8BfCnKmIRMx40UAAAAASUVORK5CYII=" />Download
+                                on the <br> <span class="Appstore"> Appstore</span></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
